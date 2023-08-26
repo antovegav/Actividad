@@ -1,17 +1,37 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      {{ aplicacion }}
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-card color="success">
+    <ion-card-header>
+      <ion-card-title>{{alimento1}}</ion-card-title>
+      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content> Card Content </ion-card-content>
+  </ion-card>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-card color="danger">
+    <ion-card-header>
+      <ion-card-title>{{alimento2}}</ion-card-title>
+      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content> Card Content </ion-card-content>
+  </ion-card>
+
+  <ion-card color="tertiary">
+    <ion-card-header>
+      <ion-card-title>{{alimento3}}</ion-card-title>
+      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content> Card Content </ion-card-content>
+  </ion-card>
+
 </ion-content>

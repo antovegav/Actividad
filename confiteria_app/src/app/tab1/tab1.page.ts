@@ -10,5 +10,11 @@ import { ExploreContainerComponent } from '../explore-container/explore-containe
   imports: [IonicModule, ExploreContainerComponent],
 })
 export class Tab1Page {
+
+  aplicacion : string = "Confiteria App";
+  alimento1 : string = "Verdura";
+  alimento2 : string = "Carne";
+  alimento3 : string = "Bebestible";
+  
   constructor() {}
 }
